@@ -46,7 +46,7 @@ variable "machine_type" {
 }
 variable "network" {
     type = string
-    default = "mylearning-vpc1"
+    default = "mylearning-vpc"
 }
 variable "subnetwork" {
     type = string
