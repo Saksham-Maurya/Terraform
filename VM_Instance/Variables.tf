@@ -38,7 +38,7 @@ variable "publickeypath" {
 }
 variable "name " {
     type = string
-    default = "terraforminstance1"
+    default = "My-First-Instance"
 }
 variable "machine_type" {
     type = string
@@ -46,7 +46,7 @@ variable "machine_type" {
 }
 variable "network" {
     type = string
-    default = "mylearning-vpc1"
+    default = "mylearning-vpc"
 }
 variable "subnetwork" {
     type = string
