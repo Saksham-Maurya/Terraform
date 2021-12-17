@@ -38,7 +38,7 @@ variable "publickeypath" {
 }
 variable "name " {
     type = string
-    default = "terraforminstance1"
+    default = "My-First-Instance"
 }
 variable "machine_type" {
     type = string
